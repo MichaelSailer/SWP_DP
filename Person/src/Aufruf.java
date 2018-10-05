@@ -6,7 +6,7 @@ public class Aufruf {
 		person p = null;
 		Scanner s = new Scanner(System.in);
 		
-		System.out.println("Geben Sie ihr Alter ein");
+		System.out.println("Geben Sie ihr Alter ein: ");
 		int age = s.nextInt();
 	
 		p = person.getPerson(age);
